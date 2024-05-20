@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/77/22/d6/7722d6cc4cfd5c08d8fac76363750ec0.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    background-color: #a7af4c;
+}
+
+.integrante {
+    display: inline-block;
+    margin: 20px;
+}
+
+.integrante img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.integrante h2 {
+    margin: 10px 0 0;
+}
+
+.button {
+    background-color: #a7af4c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
