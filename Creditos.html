@@ -10,23 +10,23 @@
 <body>
     <div id="slider">
         <div class="slide">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.miraheze.org%2Fwindowswallpaperwiki%2Fthumb%2F6%2F67%2FUser_(Windows_10_1507-1909).png%2F150px-User_(Windows_10_1507-1909).png&f=1&nofb=1&ipt=f63b2aff67e99f289307dcd097f41525be44a61e3797fc58fe0e38b63a33538a&ipo=images" alt="Integrante 1">
+            <img src="aniaa.png" alt="Integrante 1">
             <div class="info">
-                <h2>Ania</h2>
+                <h2>Ania Mendoza</h2>
                 <p>Programadora Principal</p>
             </div>
         </div>
         <div class="slide">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.miraheze.org%2Fwindowswallpaperwiki%2Fthumb%2F6%2F67%2FUser_(Windows_10_1507-1909).png%2F150px-User_(Windows_10_1507-1909).png&f=1&nofb=1&ipt=f63b2aff67e99f289307dcd097f41525be44a61e3797fc58fe0e38b63a33538a&ipo=images" alt="Integrante 2">
+            <img src="aldeanaa.png" alt="Integrante 2">
             <div class="info">
-                <h2>Aldo</h2>
+                <h2>Aldo Hernandez</h2>
                 <p>Programador Diseñador</p>
             </div>
         </div>
         <div class="slide">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.miraheze.org%2Fwindowswallpaperwiki%2Fthumb%2F6%2F67%2FUser_(Windows_10_1507-1909).png%2F150px-User_(Windows_10_1507-1909).png&f=1&nofb=1&ipt=f63b2aff67e99f289307dcd097f41525be44a61e3797fc58fe0e38b63a33538a&ipo=images" alt="Integrante 3">
+            <img src="calolina.png" alt="Integrante 3">
             <div class="info">
-                <h2>Carolina</h2>
+                <h2>Carolina Alcala</h2>
                 <p>Programadora Investigadora</p>
             </div>
         </div>
@@ -37,18 +37,20 @@
     <script>
         let slideIndex = 0;
         showSlides();
-    
+
         function showSlides() {
             let slides = document.getElementsByClassName("slide");
             for (let i = 0; i < slides.length; i++) {
                 slides[i].style.display = "none";
             }
             slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-            slides[slideIndex-1].style.display = "block";
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
             setTimeout(showSlides, 2000); // Cambia cada 2 segundos
         }
-    
+
         document.getElementById("nextBtn").addEventListener("click", function() {
             slideIndex++;
             showSlides();
